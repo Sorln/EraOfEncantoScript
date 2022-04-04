@@ -1,0 +1,44 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Era Of Encanto Script", "Ocean")
+local Tab = Window:NewTab("Gifts")
+local Section = Tab:NewSection("Gifts Of Encanto")
+Section:NewButton("Healing Light", "ButtonInfo", function()
+    print("Clicked")
+    local ohString1 = "Healing Gift"
+local ohInstance2 = workspace.CasitaNature.Tree.MeshPart
+local ohCFrame3 = CFrame.new(149.912918, -20.0567322, 75.3039169, 0.536023557, -0.0152920047, -0.844064593, 9.31322575e-10, 0.999836087, -0.0181141291, 0.844203115, 0.00970959943, 0.535935581)
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohCFrame3)
+end)
+Section:NewButton("Death Kaboomy", "ButtonInfo", function()
+    print("Clicked")
+    local ohString1 = "Dying Gift"
+local ohInstance2 = workspace.Terrain
+local ohCFrame3 = CFrame.new(-29.1540756, -20.968605, 236.292542, -0.993486941, 0.0089687705, -0.113592431, -0, 0.996897519, 0.0787107497, 0.113945939, 0.0781981051, -0.990404725)
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohCFrame3)
+end)
+Section:NewButton("Sunlight Stomp", "ButtonInfo", function()
+    print("Clicked")
+    local ohString1 = "Encanto Stomp"
+local ohInstance2 = workspace.Terrain
+local ohCFrame3 = CFrame.new(-24.8315678, -34.2000008, -25.2160263, -0.831871867, -0.1383228, 0.537453294, -0, 0.968440533, 0.24924475, -0.554967761, 0.207339689, -0.805618465)
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohCFrame3)
+end)
+Section:NewButton("Prophecy", "ButtonInfo", function()
+    print("Clicked")
+    local ohString1 = "Prophesier"
+local ohInstance2 = workspace.Terrain
+local ohCFrame3 = CFrame.new(-251.488022, -33.5487518, 13.9766083, -0.151092425, -0.273495078, 0.949932396, -3.7252903e-09, 0.96096468, 0.27667135, -0.988519728, 0.0418029428, -0.145194471)
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohCFrame3)
+end)
+Section:NewButton("Sonic Stomp", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "Sonic Stomp"
+local ohInstance2 = workspace.Terrain
+local ohCFrame3 = CFrame.new(-36.9197235, -34.2000008, 34.064476, -0.475695223, -0.156580225, 0.865561485, 7.45057971e-09, 0.984028459, 0.178010941, -0.879610121, 0.0846789628, -0.468097687)
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohCFrame3)
+end)
