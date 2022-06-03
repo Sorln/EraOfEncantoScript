@@ -42,3 +42,129 @@ local ohCFrame3 = CFrame.new(-36.9197235, -34.2000008, 34.064476, -0.475695223, 
 
 game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohCFrame3)
 end)
+Section:NewButton("Spicy Smoke", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "Spicy Smoke"
+local ohInstance2 = workspace.Terrain
+local ohCFrame3 = CFrame.new(-36.9197235, -34.2000008, 34.064476, -0.475695223, -0.156580225, 0.865561485, 7.45057971e-09, 0.984028459, 0.178010941, -0.879610121, 0.0846789628, -0.468097687)
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohCFrame3)
+end)
+Section:NewButton("Pepper Speed", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "Eat Food"
+local ohInstance2 = workspace.XSaageX
+local ohTable3 = {
+	["Num"] = 1,
+	["FoodName"] = "Pepper",
+	["Amount"] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohTable3)
+end)
+Section:NewButton("Heal Self", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "Eat Food"
+local ohInstance2 = workspace.XSaageX
+local ohTable3 = {
+	["Num"] = 4,
+	["FoodName"] = "Arepa",
+	["Amount"] = 4
+}
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohTable3)
+end)
+Section:NewButton("Enhance yourself", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "Eat Food"
+local ohInstance2 = workspace.XSaageX
+local ohTable3 = {
+	["Num"] = 3,
+	["FoodName"] = "Empanadas",
+	["Amount"] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohTable3)
+end)
+Section:NewButton("Imperfect Explosion", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "Imperfect Explosions"
+local ohInstance2 = workspace.Terrain
+local ohCFrame3 = CFrame.new(-40.1979675, -34.2000008, -46.5967445, -0.515084445, -0.383416325, 0.766602933, -0, 0.894373655, 0.447320789, -0.857139528, 0.230407983, -0.460677922)
+
+game:GetService("ReplicatedStorage").Events.Power:FireServer(ohString1, ohInstance2, ohCFrame3)
+end)
+local Tab = Window:NewTab("OverPowered")
+local Section = Tab:NewSection("Unlimited Level And Inf Butterflys Spawn as them")
+Section:NewButton("Inf Isabella", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Isabela"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
+Section:NewButton("Inf Luisa", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Luisa"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
+Section:NewButton("Inf Antonio", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Antonio"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
+Section:NewButton("Inf Dolores", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Dolores"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
+Section:NewButton("Inf Camilo", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Camilo"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
+Section:NewButton("Inf Julieta", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Julieta"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
+Section:NewButton("Inf Pepa", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Pepa"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
+Section:NewButton("Inf Bruno", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Bruno"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
+Section:NewButton("Inf Mirabel", "ButtonInfo", function()
+    print("Clicked")
+   local ohString1 = "SelectedReward"
+local ohNumber2 = 999999999999
+local ohString3 = "Mirabel"
+
+game:GetService("ReplicatedStorage").Events.QuestEvents:FireServer(ohString1, ohNumber2, ohString3)
+end)
